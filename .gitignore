@@ -1,0 +1,30 @@
+# Secretos y configuración local
+.env
+.env.*
+!.env.example
+
+# Go
+/bin/
+*.exe
+*.test
+*.out
+coverage.*
+go.work.sum
+
+# Frontend
+web/node_modules/
+web/dist/
+.vercel/
+*.local
+
+# Editores y sistema
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Documentos temporales de Office
+~$*
+.vercel
+.env*
